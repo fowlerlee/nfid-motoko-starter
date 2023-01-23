@@ -1,0 +1,28 @@
+{
+  "canisters": {
+    "authtest_backend": {
+      "main": "src/authtest_backend/main.mo",
+      "type": "motoko"
+    },
+    "authtest_frontend": {
+      "dependencies": [
+        "authtest_backend"
+      ],
+      "frontend": {
+        "entrypoint": "src/authtest_frontend/src/index.html"
+      },
+      "source": [
+        "src/authtest_frontend/assets",
+        "dist/authtest_frontend/"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "version": 1
+}

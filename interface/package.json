@@ -1,0 +1,32 @@
+{
+  "name": "test",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@connect2ic/core": "^0.1.1",
+    "@connect2ic/svelte": "^0.1.1",
+    "svelte": "^3.32.3",
+    "svelte-routing": "1.6.0",
+    "@dfinity/agent": "0.15.1",
+    "@dfinity/candid": "0.15.1",
+    "@dfinity/principal": "0.15.1"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "next",
+    "buffer": "^6.0.3",
+    "svelte": "^3.42.5",
+    "svelte-preprocess": "^4.10.7",
+    "vite": "^2.9.13",
+    "npm-run-all": "^4.1.5",
+    "rollup": "^1.10.1",
+    "rollup-plugin-commonjs": "^9.3.4",
+    "rollup-plugin-node-resolve": "^4.2.3",
+    "rollup-plugin-svelte": "^6.1.1",
+    "rollup-plugin-terser": "^4.0.4",
+    "sirv-cli": "^0.3.1"
+  }
+}
